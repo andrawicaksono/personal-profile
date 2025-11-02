@@ -1,0 +1,50 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "title": "Anti Mouse and Bird System (AMBS)",
+      "description": "An IoT-based smart agriculture system designed to detect and repel pests using AI-powered image recognition and ultrasonic technology.",
+      "thumbnail": "/projects/ambs/device.png",
+      "problem": "Farmers face significant crop losses due to mice and bird infestations, and conventional chemical repellents pose environmental and health risks.",
+      "solution": "Developed an intelligent pest detection and repulsion system using TensorFlow Lite for real-time animal recognition and ultrasonic emitters for eco-friendly deterrence, enabling remote monitoring through a web dashboard.",
+      "techStack": [
+        "TensorFlow Lite",
+        "Python",
+        "Raspberry Pi",
+        "IoT",
+        "Ultrasonic Sensors",
+        "PHP",
+        "MySQL"
+      ],
+      "github": "",
+      "demo": "https://youtu.be/XRfAnSipwfM?si=k8MgOMvVAMIMydpu",
+      "screenshots": [
+        "/projects/ambs/web-monitoring.jpeg",
+        "/projects/ambs/device.png"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Kopikimo E-Commerce Platform",
+      "description": "A web-based e-commerce platform that serves as the central marketing hub for Kopikimo products, connecting customers and sellers through a modern online transaction system.",
+      "thumbnail": "/projects/kopikimo/web.png",
+      "problem": "Traditional offline transactions are inefficient and lack accessibility, limiting sales reach and operational efficiency for Kopikimo sellers.",
+      "solution": "Developed a web application that digitizes the transaction process, allowing users to browse products, manage carts, complete payments, and access store information. Sellers can manage products, publish content, and track sales data effectively through the platform.",
+      "techStack": [
+        "Laravel",
+        "React.js",
+        "MySQL",
+        "PHP",
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "github": "https://github.com/rakaryuto/RPL-Team7",
+      "demo": "",
+      "screenshots": [
+        "/projects/kopikimo/web.png",
+        "/projects/kopikimo/mobile.jpg"
+      ]
+    }
+  ]
+}

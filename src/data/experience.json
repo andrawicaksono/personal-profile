@@ -1,0 +1,83 @@
+{
+  "experiences": [
+    {
+      "id": 1,
+      "role": "Programmer",
+      "company": "PT Bank Syariah Indonesia Tbk",
+      "location": "Jakarta, Indonesia",
+      "period": "November2024 - Present",
+      "description": [
+        "Develop microservices-based payroll management platform",
+        "Improved application performance by up to 42x, primarily by optimizing the database insert process",
+        "Eliminated locking issues in the multiposting feature by implementing asynchronous processing",
+        "Implemented real-time features using WebSocket"
+      ],
+      "techStack": [
+        "Kotlin",
+        "Spring Boot",
+        "Oracle DB",
+        "Redis",
+        "RHEL",
+        "Gitlab"
+      ]
+    },
+    {
+      "id": 2,
+      "role": "Backend Engineer",
+      "company": "PT Bullion Ecosystem International",
+      "location": "Jakarta, Indonesia",
+      "period": "January 2023 - November 2024",
+      "description": [
+        "Played a key role in the design and development of the MetalPay API, contributing to the implementation of robust and secure endpoints for seamless transactions",
+        "Contributed to the development of the Gold to Mecca API, focusing on creating efficient data exchange mechanisms to facilitate gold transactions related to Mecca pilgrimages.",
+        "Contributed significantly to the development of the Ziswaf API, streamlining processes for Zakat, Infaq, and Sadaqah transactions with a focus on usability and reliability."
+      ],
+      "techStack": [
+        "JavaScript",
+        "Express JS",
+        "Mongo DB",
+        "Redis",
+        "Docker",
+        "Google Cloud Platform",
+        "Google Pub/Sub"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "id": 1,
+      "degree": "Bachelor of Computer Science",
+      "institution": "Institut Pertanian Bogor",
+      "location": "Bogor, Indonesia",
+      "period": "2019 - 2023",
+      "achievements": [
+        "Cum Laude",
+        "Led External Relations for Computer Science Student Association",
+        "Finalist in Smart Device, Embedded System, and IoT Gemastik XIV 2021"
+      ]
+    }
+  ],
+  "certifications": [
+    {
+      "id": 1,
+      "name": "Spring Boot Microservices and Spring Cloud. Build & Deploy.",
+      "issuer": "Udemy",
+      "date": "2025",
+      "url": "https://www.udemy.com/certificate/UC-1744ba2b-a6e2-4305-a7cb-018154f50bde/"
+    },
+    {
+      "id": 2,
+      "name": "Startup Campus Batch 3 - Backend Engineer",
+      "issuer": "Startup Campus",
+      "date": "2022",
+      "url": "https://www.startupcampus.id/certificate/public/KM3-BE2A72"
+    },
+    {
+      "id": 3,
+      "name": "Foundations of User Experience (UX) Design",
+      "issuer": "Google",
+      "date": "2021",
+      "url": "https://coursera.org/share/ed985f3965682012aa3a83e9810433fb"
+    }
+  ]
+}
