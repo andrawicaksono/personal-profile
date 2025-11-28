@@ -24,9 +24,9 @@ export default function ProjectModal({ project, onClose }: ProjectModalProps) {
           animate={{ scale: 1, opacity: 1 }}
           exit={{ scale: 0.9, opacity: 0 }}
           onClick={(e) => e.stopPropagation()}
-          className="bg-white dark:bg-gray-800 rounded-2xl shadow-xl max-w-4xl w-full max-h-[90vh] overflow-y-auto"
+          className="bg-white dark:bg-gray-800 rounded-2xl shadow-xl max-w-4xl w-full max-h-[90vh] overflow-hidden flex flex-col"
         >
-          <div className="sticky top-0 bg-white dark:bg-gray-800 p-4 border-b dark:border-gray-700 flex justify-between items-center">
+          <div className="bg-white dark:bg-gray-800 p-4 border-b dark:border-gray-700 flex justify-between items-center flex-shrink-0">
             <h2 className="text-2xl font-bold">{project.title}</h2>
             <button
               onClick={onClose}
@@ -36,7 +36,7 @@ export default function ProjectModal({ project, onClose }: ProjectModalProps) {
             </button>
           </div>
 
-          <div className="p-6 space-y-6">
+          <div className="p-6 space-y-6 overflow-y-auto">
             {/* Screenshots */}
             <div className="grid grid-cols-2 gap-4">
               {project.screenshots.map((screenshot, index) => (

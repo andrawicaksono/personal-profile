@@ -134,7 +134,7 @@ export default function HeroSection() {
           </div>
           <motion.h1
             variants={itemVariants}
-            className="text-4xl md:text-5xl font-bold mb-2 bg-gradient-to-r from-blue-500 to-purple-500 text-transparent bg-clip-text"
+            className="text-4xl md:text-5xl font-bold mb-2 text-gray-900 dark:text-white"
           >
             Andra Wicaksono
           </motion.h1>

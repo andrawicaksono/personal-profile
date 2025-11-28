@@ -38,7 +38,7 @@ export default function AboutSection() {
         >
           {/* Bio Section */}
           <motion.div variants={itemVariants} className="text-center">
-            <h2 className="text-3xl md:text-4xl font-bold mb-6 bg-gradient-to-r from-blue-600 to-purple-600 text-transparent bg-clip-text">
+            <h2 className="text-3xl md:text-4xl font-bold mb-6 text-gray-900 dark:text-white">
               About Me
             </h2>
             <p className="text-lg text-gray-700 dark:text-gray-300 max-w-3xl mx-auto transition-colors duration-200">
